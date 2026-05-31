@@ -1,0 +1,30 @@
+{
+  "checks_performed": [
+    {
+      "event_id": "EVT-20260525-000017",
+      "output_ref": "outputs/showcase/maia_archivist_proof.json written and available for receipt.",
+      "summary": "Fresh showcase proof: Maia Archivist wrote, hashed, and logged an output artifact.",
+      "target": "outputs/showcase/maia_archivist_proof.json"
+    }
+  ],
+  "claim_boundary": "Luminary Archivist records hooked/wrapped or explicitly logged events.",
+  "claims_supported": [],
+  "date": "2026-05-25T20:09:56Z",
+  "event_ids": [
+    "EVT-20260525-000017"
+  ],
+  "events_logged": 1,
+  "evidence_strength_counts": {
+    "E4": 1
+  },
+  "files_inspected": [],
+  "files_modified": [],
+  "receipt_id": "RCP-20260525-RUN-20260525-200956-maia-showcase",
+  "recommended_next_action": "Use Claude/Codex hooks and Grok wrapper for live agent runs.",
+  "remaining_risks": [
+    "This proves explicit event logging and receipt generation",
+    "not universal automatic capture."
+  ],
+  "run_id": "RUN-20260525-200956-maia-showcase",
+  "traces_linked": []
+}

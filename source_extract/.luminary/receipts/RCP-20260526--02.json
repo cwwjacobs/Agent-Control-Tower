@@ -1,0 +1,37 @@
+{
+  "checks_performed": [
+    {
+      "event_id": "EVT-20260526-000001",
+      "output_ref": "Regression summary: PASS — 33/33 assertions across Phase 1, Phase 2 refusal, and Phase 3 repair checks.",
+      "summary": "ACOS known-bad fixture regression passed: hardened AI Dev Readiness chain produced Phase 1 block, Phase 2 refusal, and Phase 3 repair pack behavior.",
+      "target": "/home/terminus-protocol/BACKUP/AllMyWork/ixcore-contracts-v0_1/VaultCrack-main/acOS-main/ACOS_GATE_ROUTING_REGRESSION_RECEIPT.md"
+    }
+  ],
+  "claim_boundary": "This receipt records explicit logged events; it does not prove unlogged actions did not occur.",
+  "claims_supported": [],
+  "date": "2026-05-26T00:16:51Z",
+  "event_ids": [
+    "EVT-20260525-000036",
+    "EVT-20260526-000001",
+    "EVT-20260526-000002",
+    "EVT-20260526-000003"
+  ],
+  "events_logged": 4,
+  "evidence_strength_counts": {
+    "E1": 1,
+    "E3": 1,
+    "E4": 1,
+    "E5": 1
+  },
+  "files_inspected": [],
+  "files_modified": [
+    "/home/terminus-protocol/.claude/skills"
+  ],
+  "receipt_id": "RCP-20260526--02",
+  "recommended_next_action": "Back up updated skills and ACOS regression artifacts.",
+  "remaining_risks": [
+    "Receipt covers logged shutdown and regression events only."
+  ],
+  "run_id": "",
+  "traces_linked": []
+}

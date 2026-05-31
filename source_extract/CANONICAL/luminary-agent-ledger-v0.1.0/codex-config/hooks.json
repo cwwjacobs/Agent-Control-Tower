@@ -1,0 +1,66 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /home/terminus-protocol/Desktop/SWARMPRIMETRACE/scripts/luminary_hook_router.py",
+            "timeout": 20,
+            "statusMessage": "Logging Luminary session start"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /home/terminus-protocol/Desktop/SWARMPRIMETRACE/scripts/luminary_hook_router.py",
+            "timeout": 20,
+            "statusMessage": "Logging Luminary prompt"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash|apply_patch|Edit|Write|Read|Grep|Glob|.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /home/terminus-protocol/Desktop/SWARMPRIMETRACE/scripts/luminary_hook_router.py",
+            "timeout": 20,
+            "statusMessage": "Logging Luminary tool event"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /home/terminus-protocol/Desktop/SWARMPRIMETRACE/scripts/luminary_hook_router.py",
+            "timeout": 20,
+            "statusMessage": "Logging Luminary subagent stop"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /home/terminus-protocol/Desktop/SWARMPRIMETRACE/scripts/luminary_hook_router.py",
+            "timeout": 20,
+            "statusMessage": "Logging Luminary turn stop"
+          }
+        ]
+      }
+    ]
+  }
+}

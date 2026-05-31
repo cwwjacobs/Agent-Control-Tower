@@ -1,0 +1,58 @@
+{
+  "checks_performed": [
+    {
+      "event_id": "EVT-20260525-000003",
+      "output_ref": "1",
+      "summary": "Checked for duplicate Table of Contents headings after cleanup."
+    },
+    {
+      "event_id": "EVT-20260525-000004",
+      "output_ref": "0",
+      "summary": "Checked for leftover assistant process language after cleanup."
+    }
+  ],
+  "claim_boundary": "This sample receipt demonstrates the format. It does not certify Prime Swarm correctness or completeness.",
+  "claims_supported": [
+    "CLAIM-PS-001",
+    "CLAIM-PS-002",
+    "CLAIM-PS-003"
+  ],
+  "date": "2026-05-25T17:41:00Z",
+  "event_ids": [
+    "EVT-20260525-000001",
+    "EVT-20260525-000002",
+    "EVT-20260525-000003",
+    "EVT-20260525-000004",
+    "EVT-20260525-000005",
+    "EVT-20260525-000006",
+    "EVT-20260525-000007"
+  ],
+  "events_logged": 7,
+  "evidence_strength_counts": {
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2,
+    "E5": 1
+  },
+  "files_inspected": [
+    "skills/prime-swarm/SKILL.md"
+  ],
+  "files_modified": [
+    "skills/prime-swarm/SKILL.md",
+    ".grok/memory/traceforgetui-copy-1-8eeef241/MEMORY.md"
+  ],
+  "receipt_id": "RCP-20260525-RUN-20260525-prime-swarm-hardening-SAMPLE",
+  "recommended_next_action": "Install the pack into SWARMPRIMETRACE, then log the next real swarm hardening session from inside that project root.",
+  "remaining_risks": [
+    "Sample events are seeded from transcript content and should be regenerated in the actual SWARMPRIMETRACE project for canon use.",
+    "The logger is file-based and local-first, not a production observability system."
+  ],
+  "run_id": "RUN-20260525-prime-swarm-hardening",
+  "traces_linked": [
+    "TRACE-005",
+    "TRACE-016",
+    "TRACE-018",
+    "TRACE-021"
+  ]
+}

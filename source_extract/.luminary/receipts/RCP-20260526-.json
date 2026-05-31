@@ -1,0 +1,34 @@
+{
+  "checks_performed": [
+    {
+      "event_id": "EVT-20260526-000001",
+      "output_ref": "Regression summary: PASS — 33/33 assertions across Phase 1, Phase 2 refusal, and Phase 3 repair checks.",
+      "summary": "ACOS known-bad fixture regression passed: hardened AI Dev Readiness chain produced Phase 1 block, Phase 2 refusal, and Phase 3 repair pack behavior.",
+      "target": "/home/terminus-protocol/BACKUP/AllMyWork/ixcore-contracts-v0_1/VaultCrack-main/acOS-main/ACOS_GATE_ROUTING_REGRESSION_RECEIPT.md"
+    }
+  ],
+  "claim_boundary": "Receipt records logged regression evidence only; it does not certify AI Dev Readiness globally.",
+  "claims_supported": [],
+  "date": "2026-05-26T00:04:44Z",
+  "event_ids": [
+    "EVT-20260525-000036",
+    "EVT-20260526-000001"
+  ],
+  "events_logged": 2,
+  "evidence_strength_counts": {
+    "E3": 1,
+    "E4": 1
+  },
+  "files_inspected": [],
+  "files_modified": [
+    "/home/terminus-protocol/.claude/skills"
+  ],
+  "receipt_id": "RCP-20260526-",
+  "recommended_next_action": "Package ACOS known-bad fixture and regression artifacts as the first eval fixture for the AI Dev Readiness chain.",
+  "remaining_risks": [
+    "Regression only proves behavior against ACOS known-bad fixture",
+    "not global skill correctness."
+  ],
+  "run_id": "",
+  "traces_linked": []
+}

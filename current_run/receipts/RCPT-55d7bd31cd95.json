@@ -1,0 +1,14 @@
+{
+  "receipt_id": "RCPT-55d7bd31cd95",
+  "timestamp": "2026-05-31T22:05:43.846413+00:00",
+  "request_id": "DR-8c349897eb52",
+  "event_id": "EVT-20260525-000005",
+  "run_id": "RUN-20260525-prime-swarm-hardening",
+  "action_type": "file_edit",
+  "target": "skills/prime-swarm/SKILL.md",
+  "summary": "Hardened Insight Harvest Report template and added Operational Boundary section.",
+  "decision": "approved",
+  "rationale": "Auto-generated for Step 3.1 receipt verification",
+  "corrected_action": null,
+  "content_hash": "55d7bd31cd95c048e53ca4ad6b55d11799e2448964bc490692ae82f3518d081c"
+}

@@ -1,0 +1,31 @@
+{
+  "checks_performed": [
+    {
+      "event_id": "EVT-20260525-000009",
+      "output_ref": "smoke test passed",
+      "summary": "Ran Luminary I/O Archivist smoke test successfully after installing into SWARMPRIMETRACE.",
+      "target": "tests/smoke_test.py"
+    }
+  ],
+  "claim_boundary": "Receipt proves logged events/artifacts only; it does not prove universal capture or task correctness.",
+  "claims_supported": [],
+  "date": "2026-05-25T21:54:38Z",
+  "event_ids": [
+    "EVT-20260525-000008",
+    "EVT-20260525-000009"
+  ],
+  "events_logged": 2,
+  "evidence_strength_counts": {
+    "E1": 1,
+    "E4": 1
+  },
+  "files_inspected": [],
+  "files_modified": [],
+  "receipt_id": "RCP-20260525-RUN-20260525-1334-swarm-live",
+  "recommended_next_action": "Preserve this run in canonical backup.",
+  "remaining_risks": [
+    "Finalized during canonical backup. Receipt covers logged events only."
+  ],
+  "run_id": "RUN-20260525-1334-swarm-live",
+  "traces_linked": []
+}

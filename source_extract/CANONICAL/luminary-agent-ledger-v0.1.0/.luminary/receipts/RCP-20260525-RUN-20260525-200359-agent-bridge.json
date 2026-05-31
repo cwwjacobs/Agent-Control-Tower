@@ -1,0 +1,29 @@
+{
+  "checks_performed": [],
+  "claim_boundary": "Receipt proves logged events/artifacts only; it does not prove universal capture or task correctness.",
+  "claims_supported": [],
+  "date": "2026-05-25T21:54:38Z",
+  "event_ids": [
+    "EVT-20260525-000014",
+    "EVT-20260525-000015",
+    "EVT-20260525-000016"
+  ],
+  "events_logged": 3,
+  "evidence_strength_counts": {
+    "E1": 1,
+    "E2": 1,
+    "E3": 1
+  },
+  "files_inspected": [
+    "grok -p write a small probe report to outputs/grok_probe.md",
+    ".luminary/agent_runs/RUN-20260525-200359-agent-bridge/grok_20260525T200415Z.log"
+  ],
+  "files_modified": [],
+  "receipt_id": "RCP-20260525-RUN-20260525-200359-agent-bridge",
+  "recommended_next_action": "Preserve this run in canonical backup.",
+  "remaining_risks": [
+    "Finalized during canonical backup. Receipt covers logged events only."
+  ],
+  "run_id": "RUN-20260525-200359-agent-bridge",
+  "traces_linked": []
+}

@@ -1,0 +1,27 @@
+{
+  "checks_performed": [],
+  "claim_boundary": "This retro-receipt preserves known artifacts and the operator-noted gap; it does not prove complete historical capture.",
+  "claims_supported": [],
+  "date": "2026-05-25T23:44:20Z",
+  "event_ids": [
+    "EVT-20260525-000032",
+    "EVT-20260525-000033",
+    "EVT-20260525-000034"
+  ],
+  "events_logged": 3,
+  "evidence_strength_counts": {
+    "E1": 2,
+    "E3": 1
+  },
+  "files_inspected": [],
+  "files_modified": [
+    "outputs/retro_wrap/files_changed_last60min.txt"
+  ],
+  "receipt_id": "RCP-20260525-RUN-20260525-234355-agent-bridge",
+  "recommended_next_action": "Continue from this activated run ID and log future outputs normally.",
+  "remaining_risks": [
+    "Some actions occurred before explicit wrap activation and may not be fully captured."
+  ],
+  "run_id": "RUN-20260525-234355-agent-bridge",
+  "traces_linked": []
+}

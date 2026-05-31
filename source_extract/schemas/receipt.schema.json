@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LuminaryReceipt",
+  "type": "object",
+  "required": [
+    "receipt_id",
+    "run_id",
+    "date",
+    "files_inspected",
+    "files_modified",
+    "events_logged",
+    "claims_supported",
+    "checks_performed",
+    "remaining_risks",
+    "claim_boundary",
+    "recommended_next_action"
+  ],
+  "properties": {
+    "receipt_id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "files_inspected": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "files_modified": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "events_logged": {
+      "type": "integer"
+    },
+    "claims_supported": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "checks_performed": {
+      "type": "array"
+    },
+    "remaining_risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_boundary": {
+      "type": "string"
+    },
+    "recommended_next_action": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

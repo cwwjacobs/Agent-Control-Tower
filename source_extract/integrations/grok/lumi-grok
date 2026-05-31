@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="${LUMINARY_PROJECT_ROOT:-$(git rev-parse --show-toplevel 2>/dev/null || pwd)}"
+export LUMINARY_PROJECT_ROOT="$ROOT"
+export LUMINARY_RUN_ID="${LUMINARY_RUN_ID:-RUN-$(date -u +%Y%m%d-%H%M%S)-grok}"
+
+if command -v grok-build >/dev/null 2>&1; then
+  "$ROOT/scripts/luminary_agent_run.sh" grok -- grok-build "$@"
+elif command -v grok >/dev/null 2>&1; then
+  "$ROOT/scripts/luminary_agent_run.sh" grok -- grok "$@"
+else
+  echo "Could not find grok-build or grok on PATH." >&2
+  exit 127
+fi

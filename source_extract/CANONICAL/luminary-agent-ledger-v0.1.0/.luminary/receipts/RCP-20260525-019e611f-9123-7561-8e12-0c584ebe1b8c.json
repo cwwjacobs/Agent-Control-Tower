@@ -1,0 +1,24 @@
+{
+  "checks_performed": [],
+  "claim_boundary": "Receipt proves Codex hook events were logged; it does not prove full task correctness.",
+  "claims_supported": [],
+  "date": "2026-05-25T21:53:33Z",
+  "event_ids": [
+    "EVT-20260525-000023",
+    "EVT-20260525-000024",
+    "EVT-20260525-000025"
+  ],
+  "events_logged": 3,
+  "evidence_strength_counts": {
+    "E3": 3
+  },
+  "files_inspected": [],
+  "files_modified": [],
+  "receipt_id": "RCP-20260525-019e611f-9123-7561-8e12-0c584ebe1b8c",
+  "recommended_next_action": "Run a Codex file-read or validation probe next.",
+  "remaining_risks": [
+    "Codex hook capture covers logged hook events only."
+  ],
+  "run_id": "019e611f-9123-7561-8e12-0c584ebe1b8c",
+  "traces_linked": []
+}

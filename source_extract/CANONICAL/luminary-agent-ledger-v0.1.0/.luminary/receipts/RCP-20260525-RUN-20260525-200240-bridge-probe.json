@@ -1,0 +1,31 @@
+{
+  "checks_performed": [
+    {
+      "event_id": "EVT-20260525-000011",
+      "output_ref": "bridge probe executed",
+      "summary": "Validated Luminary Agent Bridge files are installed and callable.",
+      "target": "scripts/luminary_hook_router.py"
+    }
+  ],
+  "claim_boundary": "Probe proves the router can receive synthetic hook input and write ledger events.",
+  "claims_supported": [],
+  "date": "2026-05-25T20:02:41Z",
+  "event_ids": [
+    "EVT-20260525-000011",
+    "EVT-20260525-000012"
+  ],
+  "events_logged": 2,
+  "evidence_strength_counts": {
+    "E3": 1,
+    "E4": 1
+  },
+  "files_inspected": [],
+  "files_modified": [],
+  "receipt_id": "RCP-20260525-RUN-20260525-200240-bridge-probe",
+  "recommended_next_action": "Enable Claude/Codex hooks and run /hooks to verify/trust them.",
+  "remaining_risks": [
+    "Bridge probe validates hook router logging only."
+  ],
+  "run_id": "RUN-20260525-200240-bridge-probe",
+  "traces_linked": []
+}

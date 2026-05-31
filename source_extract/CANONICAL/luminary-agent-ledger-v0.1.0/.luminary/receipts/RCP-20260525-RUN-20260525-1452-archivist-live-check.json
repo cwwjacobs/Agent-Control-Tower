@@ -1,0 +1,29 @@
+{
+  "checks_performed": [
+    {
+      "event_id": "EVT-20260525-000010",
+      "output_ref": "outputs/archivist_check/test_output.json exists and contains status ok",
+      "summary": "Checked that Luminary I/O Archivist can log a saved output artifact.",
+      "target": "outputs/archivist_check/test_output.json"
+    }
+  ],
+  "claim_boundary": "Receipt proves logged events/artifacts only; it does not prove universal capture or task correctness.",
+  "claims_supported": [],
+  "date": "2026-05-25T21:54:38Z",
+  "event_ids": [
+    "EVT-20260525-000010"
+  ],
+  "events_logged": 1,
+  "evidence_strength_counts": {
+    "E4": 1
+  },
+  "files_inspected": [],
+  "files_modified": [],
+  "receipt_id": "RCP-20260525-RUN-20260525-1452-archivist-live-check",
+  "recommended_next_action": "Preserve this run in canonical backup.",
+  "remaining_risks": [
+    "Finalized during canonical backup. Receipt covers logged events only."
+  ],
+  "run_id": "RUN-20260525-1452-archivist-live-check",
+  "traces_linked": []
+}

@@ -1,0 +1,7 @@
+{
+  "cwd": "/home/terminus-protocol/Desktop/SWARMPRIMETRACE",
+  "hook_event_name": "SessionEnd",
+  "reason": "other",
+  "session_id": "77271ebc-9847-44da-ae40-cb4d96186939",
+  "transcript_path": "/home/terminus-protocol/.claude/projects/-home-terminus-protocol-Desktop-SWARMPRIMETRACE/77271ebc-9847-44da-ae40-cb4d96186939.jsonl"
+}

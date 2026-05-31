@@ -1,0 +1,9 @@
+{
+  "cwd": "/home/terminus-protocol/Desktop/SWARMPRIMETRACE",
+  "hook_event_name": "SessionStart",
+  "model": "gpt-5.5",
+  "permission_mode": "default",
+  "session_id": "019e611f-9123-7561-8e12-0c584ebe1b8c",
+  "source": "startup",
+  "transcript_path": "/home/terminus-protocol/.codex/sessions/2026/05/25/rollout-2026-05-25T16-51-59-019e611f-9123-7561-8e12-0c584ebe1b8c.jsonl"
+}

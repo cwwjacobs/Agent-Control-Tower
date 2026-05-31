@@ -1,0 +1,14 @@
+{
+  "receipt_id": "RCPT-bb721e0257c3",
+  "timestamp": "2026-05-31T22:05:43.846838+00:00",
+  "request_id": "DR-463719965b49",
+  "event_id": "EVT-20260525-000015",
+  "run_id": "RUN-20260525-200359-agent-bridge",
+  "action_type": "tool_call",
+  "target": "grok -p write a small probe report to outputs/grok_probe.md",
+  "summary": "Started wrapped grok command.",
+  "decision": "approved",
+  "rationale": "Auto-generated for Step 3.1 receipt verification",
+  "corrected_action": null,
+  "content_hash": "bb721e0257c388f0b8edb1937a676d3150d54c30e7e3a65404fb0c36c6ab793f"
+}

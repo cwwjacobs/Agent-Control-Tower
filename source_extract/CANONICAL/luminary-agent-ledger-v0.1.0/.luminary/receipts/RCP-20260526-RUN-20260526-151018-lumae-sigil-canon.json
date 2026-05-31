@@ -1,0 +1,18 @@
+{
+  "checks_performed": [],
+  "claim_boundary": "Luminary Agent Bridge records events it receives from hooks/wrappers; it does not prove universal capture or system correctness.",
+  "claims_supported": [],
+  "date": "2026-05-26T15:10:36Z",
+  "event_ids": [],
+  "events_logged": 0,
+  "evidence_strength_counts": {},
+  "files_inspected": [],
+  "files_modified": [],
+  "receipt_id": "RCP-20260526-RUN-20260526-151018-lumae-sigil-canon",
+  "recommended_next_action": "Review event coverage and add missing hooks/wrappers for uncaptured actions.",
+  "remaining_risks": [
+    "This receipt summarizes explicitly hooked or wrapped events only."
+  ],
+  "run_id": "RUN-20260526-151018-lumae-sigil-canon",
+  "traces_linked": []
+}

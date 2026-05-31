@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LuminaryEvent",
+  "type": "object",
+  "required": [
+    "event_id",
+    "run_id",
+    "timestamp",
+    "actor",
+    "role",
+    "action_type",
+    "target",
+    "summary",
+    "evidence_source",
+    "claim_links",
+    "trace_links",
+    "confidence",
+    "operator_approved"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "actor": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "action_type": {
+      "enum": [
+        "user_instruction",
+        "assistant_output",
+        "tool_call",
+        "tool_result",
+        "file_read",
+        "file_edit",
+        "command_run",
+        "validation",
+        "decision",
+        "receipt",
+        "trace_update",
+        "read",
+        "search",
+        "edit",
+        "execute"
+      ]
+    },
+    "target": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "evidence_source": {
+      "enum": [
+        "user_message",
+        "assistant_message",
+        "tool_log",
+        "file_diff",
+        "command_output",
+        "receipt",
+        "manual_note",
+        "file_hash"
+      ]
+    },
+    "input_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "output_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "before_hash": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "after_hash": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "claim_links": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trace_links": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "enum": [
+        "direct",
+        "derived",
+        "inferred"
+      ]
+    },
+    "operator_approved": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

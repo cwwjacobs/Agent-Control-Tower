@@ -1,0 +1,27 @@
+{
+  "checks_performed": [],
+  "claim_boundary": "Receipt proves Claude hook events were logged; it does not prove full task correctness.",
+  "claims_supported": [],
+  "date": "2026-05-25T21:53:33Z",
+  "event_ids": [
+    "EVT-20260525-000019",
+    "EVT-20260525-000020",
+    "EVT-20260525-000021",
+    "EVT-20260525-000022"
+  ],
+  "events_logged": 4,
+  "evidence_strength_counts": {
+    "E3": 4
+  },
+  "files_inspected": [
+    "README.md"
+  ],
+  "files_modified": [],
+  "receipt_id": "RCP-20260525-77271ebc-9847-44da-ae40-cb4d96186939",
+  "recommended_next_action": "Run a Claude edit/validation probe next.",
+  "remaining_risks": [
+    "Claude hook capture covers logged hook events only."
+  ],
+  "run_id": "77271ebc-9847-44da-ae40-cb4d96186939",
+  "traces_linked": []
+}

@@ -1,0 +1,14 @@
+{
+  "cwd": "/home/terminus-protocol/Desktop/SWARMPRIMETRACE",
+  "hook_event_name": "PostToolUse",
+  "session_id": "RUN-20260525-200240-bridge-probe",
+  "tool_input": {
+    "command": "echo probe"
+  },
+  "tool_name": "Bash",
+  "tool_response": {
+    "interrupted": false,
+    "stderr": "",
+    "stdout": "probe"
+  }
+}

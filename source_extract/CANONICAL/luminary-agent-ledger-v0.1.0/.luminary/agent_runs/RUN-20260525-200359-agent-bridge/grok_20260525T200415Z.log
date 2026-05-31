@@ -1,0 +1,22 @@
+[2m2026-05-25T20:04:16.688511Z[0m [31mERROR[0m responses API error [3mstatus[0m[2m=[0m403 Forbidden [3merror_message[0m[2m=[0mThe caller does not have permission to execute the specified operation: You have run out of credits or need a Grok subscription. Add credits at https://grok.com/?_s=usage or upgrade at https://grok.com/supergrok. [WKE=personal-team-blocked:spending-limit]
+
+Request URL: https://cli-chat-proxy.grok.com/v1/responses [3mmodel_id[0m[2m=[0mgrok-build
+[2m2026-05-25T20:04:16.827482Z[0m [31mERROR[0m responses API error [3mstatus[0m[2m=[0m403 Forbidden [3merror_message[0m[2m=[0mThe caller does not have permission to execute the specified operation: You have run out of credits or need a Grok subscription. Add credits at https://grok.com/?_s=usage or upgrade at https://grok.com/supergrok. [WKE=personal-team-blocked:spending-limit]
+
+Request URL: https://cli-chat-proxy.grok.com/v1/responses [3mmodel_id[0m[2m=[0mgrok-build
+[2m2026-05-25T20:04:16.827855Z[0m [31mERROR[0m [3merror[0m[2m=[0mInternal error: {
+  "message": "API error (status 403 Forbidden): The caller does not have permission to execute the specified operation: You have run out of credits or need a Grok subscription. Add credits at https://grok.com/?_s=usage or upgrade at https://grok.com/supergrok. [WKE=personal-team-blocked:spending-limit]\n\nRequest URL: https://cli-chat-proxy.grok.com/v1/responses",
+  "http_status": 403
+}
+[2m2026-05-25T20:04:16.827871Z[0m [31mERROR[0m [3merror[0m[2m=[0mInternal error: {
+  "message": "API error (status 403 Forbidden): The caller does not have permission to execute the specified operation: You have run out of credits or need a Grok subscription. Add credits at https://grok.com/?_s=usage or upgrade at https://grok.com/supergrok. [WKE=personal-team-blocked:spending-limit]\n\nRequest URL: https://cli-chat-proxy.grok.com/v1/responses",
+  "http_status": 403
+}
+Internal error: {
+  "message": "API error (status 403 Forbidden): The caller does not have permission to execute the specified operation: You have run out of credits or need a Grok subscription. Add credits at https://grok.com/?_s=usage or upgrade at https://grok.com/supergrok. [WKE=personal-team-blocked:spending-limit]\n\nRequest URL: https://cli-chat-proxy.grok.com/v1/responses",
+  "http_status": 403
+}
+Error: Internal error: {
+  "message": "API error (status 403 Forbidden): The caller does not have permission to execute the specified operation: You have run out of credits or need a Grok subscription. Add credits at https://grok.com/?_s=usage or upgrade at https://grok.com/supergrok. [WKE=personal-team-blocked:spending-limit]\n\nRequest URL: https://cli-chat-proxy.grok.com/v1/responses",
+  "http_status": 403
+}

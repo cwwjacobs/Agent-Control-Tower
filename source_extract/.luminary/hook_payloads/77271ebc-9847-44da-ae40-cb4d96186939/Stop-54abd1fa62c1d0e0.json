@@ -1,0 +1,14 @@
+{
+  "background_tasks": [],
+  "cwd": "/home/terminus-protocol/Desktop/SWARMPRIMETRACE",
+  "effort": {
+    "level": "high"
+  },
+  "hook_event_name": "Stop",
+  "last_assistant_message": "claude hook probe complete",
+  "permission_mode": "default",
+  "session_crons": [],
+  "session_id": "77271ebc-9847-44da-ae40-cb4d96186939",
+  "stop_hook_active": false,
+  "transcript_path": "/home/terminus-protocol/.claude/projects/-home-terminus-protocol-Desktop-SWARMPRIMETRACE/77271ebc-9847-44da-ae40-cb4d96186939.jsonl"
+}

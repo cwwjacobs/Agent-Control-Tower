@@ -1,0 +1,15 @@
+{
+  "cwd": "/home/terminus-protocol/Desktop/SWARMPRIMETRACE",
+  "hook_event_name": "PostToolUse",
+  "model": "gpt-5.5",
+  "permission_mode": "default",
+  "session_id": "019e611f-9123-7561-8e12-0c584ebe1b8c",
+  "tool_input": {
+    "command": "sed -n '1,220p' README.md"
+  },
+  "tool_name": "Bash",
+  "tool_response": "# Luminary Agent Bridge v0.1.0\n\nPurpose: connect Luminary I/O Archivist to Claude Code, Codex CLI, and Grok/Grok Build workflows.\n\nThis pack assumes your project already has:\n\n- `.luminary/events/events.jsonl`\n- `scripts/luminary_log_event.py`\n- `scripts/luminary_build_receipt.py`\n- `scripts/_luminary_common.py`\n\nIt adds a shared hook router, shell wrappers, and integration snippets.\n\n## What this does\n\n- Logs agent lifecycle/tool events into `.luminary/events/events.jsonl`\n- Hashes output targets when they are real files\n- Builds receipts per `RUN_ID`\n- Gives Claude and Codex hook entrypoints\n- Gives Grok a safe wrapper + AGENTS contract\n\n## Claim boundary\n\nThis bridge proves that hooked/wrapped events were logged. It does not prove universal correctness, security, production readiness, or that every possible tool action was intercepted.\n\n## Quick install\n\nFrom your SWARMPRIMETRACE root:\n\n```bash\nunzip luminary_agent_bridge_v0_1_0.zip\ncp -a luminary_agent_bridge_v0_1_0/. .\nchmod +x scripts/luminary_*.sh scripts/luminary_hook_router.py integrations/grok/lumi-grok\n```\n\n## Turn on a run\n\n```bash\nsource scripts/luminary_session_on.sh\n```\n\n## Manual wrapper pattern\n\n```bash\nscripts/luminary_agent_run.sh codex -- codex\nscripts/luminary_agent_run.sh claude -- claude\nscripts/luminary_agent_run.sh grok -- grok-build\n```\n\nFor headless / prompt mode:\n\n```bash\nscripts/luminary_agent_run.sh grok -- grok-build -p \"audit the repo and output a report\"\n```\n\n## End a run\n\n```bash\nscripts/luminary_session_receipt.sh\n```\n\n## Claude Code hook install\n\nCopy `integrations/claude/settings.local.json.snippet` into `.claude/settings.local.json`, merging with existing settings if needed.\n\nClaude has first-class hook events such as `SessionStart`, `UserPromptSubmit`, `PreToolUse`, `PostToolUse`, `PostToolUseFailure`, and `SessionEnd`.\n\n## Codex hook install\n\nCopy `integrations/codex/hooks.json` into `.codex/hooks.json`.\n\nCodex hooks are project-local once the `.codex/` layer is trusted. Use `/hooks` in Codex to review/trust them.\n\n## Grok install\n\nGrok Build's public docs say AGENTS.md, plugins, hooks, skills, and MCP servers work out of the box, but if exact local hook schema is uncertain, use the wrapper:\n\n```bash\nintegrations/grok/lumi-grok -p \"your prompt\"\n```\n\nOr paste the content of `integrations/grok/AGENTS.luminary.md` into your project `AGENTS.md`.\n",
+  "tool_use_id": "call_7a65CWiAMUFiSP5r4Nipmpyt",
+  "transcript_path": "/home/terminus-protocol/.codex/sessions/2026/05/25/rollout-2026-05-25T16-51-59-019e611f-9123-7561-8e12-0c584ebe1b8c.jsonl",
+  "turn_id": "019e611f-b98e-7681-a2e2-f1fbac8cd097"
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LuminaryClaim",
+  "type": "object",
+  "required": [
+    "claim_id",
+    "claim_text",
+    "claim_type",
+    "status",
+    "evidence_events",
+    "claim_boundary",
+    "last_reviewed"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string"
+    },
+    "claim_text": {
+      "type": "string"
+    },
+    "claim_type": {
+      "enum": [
+        "structural",
+        "behavioral",
+        "validation",
+        "limitation",
+        "decision",
+        "roadmap"
+      ]
+    },
+    "status": {
+      "enum": [
+        "unsupported",
+        "weakly_supported",
+        "supported",
+        "validated",
+        "rejected",
+        "superseded"
+      ]
+    },
+    "evidence_events": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_boundary": {
+      "type": "string"
+    },
+    "last_reviewed": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

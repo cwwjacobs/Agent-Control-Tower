@@ -1,0 +1,14 @@
+{
+  "cwd": ".",
+  "hook_event_name": "PostToolUse",
+  "session_id": "RUN-20260526-190503-bridge-probe",
+  "tool_input": {
+    "command": "echo probe"
+  },
+  "tool_name": "Bash",
+  "tool_response": {
+    "interrupted": false,
+    "stderr": "",
+    "stdout": "probe"
+  }
+}
