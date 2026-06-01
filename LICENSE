@@ -1,0 +1,62 @@
+Agent Control Tower Source-Available License
+
+Copyright (c) 2026 Corey Jacobs. All rights reserved.
+
+1. Purpose
+
+Agent Control Tower is made source-available so customers, collaborators, and reviewers can inspect how the system works, evaluate its design, and verify that its claims are grounded in visible implementation.
+
+This license permits inspection and limited evaluation only. It does not grant open-source, commercial, hosting, resale, or redistribution rights.
+
+2. Permitted Use
+
+You may:
+
+- View and inspect the source code.
+- Clone or download the repository for private, non-commercial evaluation.
+- Run the software locally for private, non-commercial evaluation.
+- Reference the public repository when discussing or reviewing the project.
+- Submit issues, feedback, or suggested changes.
+
+3. Prohibited Use
+
+You may not, without prior written permission from the copyright holder:
+
+- Use the software for commercial purposes.
+- Sell, resell, sublicense, lease, rent, or monetize the software.
+- Offer the software as a hosted service, managed service, SaaS, API, automation service, or competing product.
+- Use the software to provide paid services that compete with Agent Control Tower or related services offered by the copyright holder.
+- Redistribute the software or modified versions of it.
+- Publish forks or derivative works as your own product.
+- Remove copyright notices, license notices, attribution, or source-identifying information.
+- Use the project name, branding, documentation, or architecture to imply endorsement or affiliation.
+
+4. Commercial Licensing
+
+Commercial use, production use, paid service use, redistribution, hosted use, or competing use requires a separate written commercial license from the copyright holder.
+
+To request commercial terms, contact the repository owner.
+
+5. Contributions
+
+Unless otherwise agreed in writing, any contribution submitted to this repository is provided under this same license.
+
+By submitting a contribution, you represent that you have the right to submit it and that you grant the copyright holder permission to use, modify, publish, and distribute the contribution as part of Agent Control Tower.
+
+6. No Warranty
+
+The software is provided "as is," without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, non-infringement, correctness, reliability, or availability.
+
+Use of the software is at your own risk.
+
+7. Limitation of Liability
+
+In no event shall the copyright holder be liable for any claim, damages, losses, liabilities, or other consequences arising from use, inspection, evaluation, modification, or inability to use the software.
+
+8. Reservation of Rights
+
+All rights not expressly granted in this license are reserved by the copyright holder.
+
+Visibility is not permission to commercialize.
+
+Source availability is not open-source licensing.
